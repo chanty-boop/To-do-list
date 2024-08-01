@@ -1,0 +1,38 @@
+.timestamp {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.important-label {
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.important-label .fa-exclamation {
+    display: none;
+}
+
+.important-label.important .fa-exclamation {
+    display: inline;
+}
+
+.important-label.important .text {
+    display: none;
+}
+
+.delete-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #dc3545;
+    padding: 0;
+}
+
+.delete-button:hover {
+    color: #c82333;
+}
+
+tr.completed td {
+    text-decoration: line-through;
+    color: #888;
+}
